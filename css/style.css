@@ -10,7 +10,7 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-  
+
 
 body {
     background-color: var(--azul);
@@ -65,4 +65,9 @@ h1, h2 {
 .contenedor > div {
     background-color: var(--blanco);
     padding: 5rem;
+}
+
+/** display-flex **/
+.d-flex {
+  display: flex; /** A pesar de ser divs se muestran de izquierda a derecha por flex-direction **/
 }
